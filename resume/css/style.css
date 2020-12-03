@@ -1,0 +1,17 @@
+
+
+.align-list-right{
+    text-align: right;
+}
+
+body{
+    background-color: #1b1e21;
+}
+
+.noList{
+    list-style-type: none;
+}
+.section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

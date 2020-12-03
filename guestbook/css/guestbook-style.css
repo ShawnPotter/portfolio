@@ -1,0 +1,20 @@
+body{
+    color: #eeeeee;
+    background-color: #1b1e21;
+}
+input[type=text]{
+    color: #eeeeee;
+    background-color: #6c757d;
+}
+#otherDescription{
+    color: #eeeeee;
+    background-color: #6c757d;
+}
+#meetType{
+    color: #eeeeee;
+    background-color: #6c757d;
+}
+
+.jumbotron{
+    background-color: #1b1e21;!important;
+}

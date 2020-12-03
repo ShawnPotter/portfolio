@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <!-- title -->
+  <title>Shawn Potter</title>
+  <!-- bootstrap css -->
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="screen">
+  <!-- custom css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+</head>
+
+<body class="text-light">
+<!-- Main container -->
+<div class="container bg-dark w-75 py-3 pt-5" id="main">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg w-75 navbar-dark bg-secondary fixed-top shadow-sm container">
+    <a class="navbar-brand" href="#">Shawn's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Portfolio<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="resume/index.html">Resume</a>
+        <a class="nav-item nav-link" href="guestbook/index.html">Guestbook</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row pt-5 mx-2">
+
+    <div class="col-lg-5" id="about">
+      <div class="row pb-5 justify-content-center">
+        <img src="images/brand.png" class="w-50" alt="Name logo">
+      </div>
+      <div class="row justify-content-center">
+        <h2 class="text-light">About Me</h2>
+      </div>
+      <div class="mt-5 pl-3 pr-5">
+        <p><strong>Greetings and welcome to my Portfolio Page</strong></p>
+        <p>
+          My name is Shawn Potter. I am a Software Development student currently enrolled at
+          Green River College working towards my Bachelors. I earned my Associates in Information
+          Techology in 2018. I had a bit of a late start in life after having to deal with health
+          issues in my late teens and early twenties, but have since gotten back on track. Hopefully
+          after finishing my degree I can find a great career in Web Development.
+        </p>
+        <p>
+          In my spare time I enjoy doing graphic design & art. You can see some of that in the Art
+          Gallery, linked on the right hand side (currently a work in progress). I also enjoy
+          playing video games, writing, and weightlifting.
+        </p>
+      </div>
+      <hr>
+      <div class="row justify-content-center">
+        <a class="mx-2" href="https://www.linkedin.com/in/shawn-potter/" target="_blank"><img src="images/linkedin.svg" height="20" width="20" alt="linkedin icon"></a>
+        <a class="mx-2" href="https://twitter.com/SDPotterDesign" target="_blank"><img src="images/twitter.svg" height="20" width="20" alt="twitter icon"></a>
+        <a class="mx-2" href="https://www.facebook.com/ShawnPotterDesign" target="_blank"><img src="images/facebook.svg" height="20" width="20" alt="facebook icon"></a>
+      </div>
+    </div>
+
+    <div class="col-lg-7 px-5" id="projects">
+      <div class="row pb-5 justify-content-center">
+        <h2 class="text-light">Projects</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="card col-12 bg-secondary text-light shadow mb-3">
+          <img class="card-img-top mt-3" src="images/outreach-preview.png" alt="">
+          <div class="card-body bg-dark mt-3 mb-3">
+            <h5 class="card-title">Outreach Website</h5>
+            <p class="card-text">
+              Group class project for SDEV 305. Utilizing sprints to create a website for the
+              St. James Episcopal Church's Outreach ministry. Bootstrap, Javascript, jQuery,
+              and PHP used in the making of the site.
+            </p>
+            <a href="https://software-avengers.greenriverdev.com/" class="stretched-link"></a>
+          </div>
+        </div>
+        <div class="card col-12 bg-secondary text-light shadow mb-3">
+          <img class="card-img-top mt-3" src="images/gallery-preview.png" alt="">
+          <div class="card-body bg-dark mt-3 mb-3">
+            <h5 class="card-title">Art Gallery</h5>
+            <p class="card-text">
+              Old Art Gallery prototype. Main feature is use of modals to get a better look at the pictures
+            </p>
+            <a href="../artgallery/index.html" class="stretched-link"></a>
+          </div>
+        </div>
+        <div class="card col-12 bg-secondary text-light shadow">
+          <img class="card-img-top mt-3" src="images/rgb-preview.png" alt="">
+          <div class="card-body bg-dark mt-3 mb-3">
+            <h5 class="card-title">Color Picker</h5>
+            <p class="card-text">
+              Converts RGB values to Hexadecimal and vice versa. Also features color picker with sliders.
+            </p>
+            <a href="../projects/rgbtohex/rgbtohex.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+</body>
+</html>
